@@ -12,3 +12,8 @@
 
 1.使用 import * as React from 'react' 引入
 2.使用 import React from 'react' 配合 tsconfig esModuleInterop:true [推荐](https://juejin.cn/post/7000930676488798216)
+
+
+### github工作流
+
+> github actions 自动化工作 https://docs.github.com/cn/actions/learn-github-actions/understanding-github-actions
