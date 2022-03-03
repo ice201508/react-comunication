@@ -4,6 +4,6 @@ export const OneCom: React.FC<any> = (props) => {
   console.log(props)
 
   return (<div>
-     
+     11
   </div>)
 }
