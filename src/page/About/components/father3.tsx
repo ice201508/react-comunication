@@ -17,7 +17,7 @@ const Father = () => {
   //     <input type="text" ref={ref2} />
   //   </div>
   // )
-  const ref = useRef();
+  const ref = useRef<HTMLInputElement>();
   const [count, setCount] = useState(1)
   
   useEffect(() => {

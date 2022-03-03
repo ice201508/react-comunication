@@ -1,7 +1,7 @@
 import React from "react";
 
 interface IProps {
-  ref: any
+  ref: React.RefObject<HTMLInputElement>
 }
 
 // const Child = (props: IProps) => {
@@ -14,7 +14,7 @@ interface IProps {
 //   )
 // }
 
-const Child = React.forwardRef<HTMLInputElement, any>((props, ref) => {
+const Child2 = React.forwardRef<HTMLInputElement, any>((props, ref) => {
   console.log(props, ref)
   return (
     <div>
