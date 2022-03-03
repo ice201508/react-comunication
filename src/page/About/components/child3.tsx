@@ -14,7 +14,7 @@ interface IProps {
 //   )
 // }
 
-const Child2 = React.forwardRef<HTMLInputElement, any>((props, ref) => {
+const Child = React.forwardRef<HTMLInputElement, any>((props, ref) => {
   console.log(props, ref)
   return (
     <div>
